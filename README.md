@@ -1,16 +1,11 @@
 # Externship Outreach
 
-Local outreach CRM with public clinic lead research, draft generation, and follow-up tracking.
+I built this tool to organize clinic research and outreach preparation. I can collect public business contact information, generate draft messages and call scripts, and keep a follow up tracker.
 
-## Technology
+I used Python and local files for the workflow. I kept message preparation separate from sending, so I can review each draft and choose how to contact a clinic myself.
 
-Python.
+## Running it
 
-## Run locally
+I install `requirements_externship.txt` in a Python environment and fill in my own details in `src/externship_profile.py`. I use `python externship_outreach.py --help` to see the available commands.
 
-Use Python 3.10 or later. Create a virtual environment and install `requirements_externship.txt`. Fill in the blank profile template in `src/externship_profile.py`, then run `python externship_outreach.py --help`. Generated leads, drafts, reports, and applicant records are excluded.
-
-## Portfolio snapshot
-
-This repository contains a source snapshot of a personal project. Personal records, credentials, browser sessions, local databases, and generated output are excluded. Use your own configuration and fictional data when evaluating it. Some integrations require external accounts or additional setup. This is a development project, with feature limitations documented in the source and guides.
-
+I left applicant details, generated drafts, and contact records out of this copy. I kept the earlier workflow notes in `README_EXTERN_OUTREACH.md`.
